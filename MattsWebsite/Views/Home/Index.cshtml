@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron text-center">
+    <h1>Matthew Payne</h1>
+    <h2>Web Developer</h2>
+</div>
+<div class="row center-block text-center">
+    <h1>About Me</h1>
+    <p>
+        Hi I'm Matthew. I'm a freelance web developer raised and living in Norfolk.<br />
+        I have experience working for a large corporation with employees from all <br />
+        over the world and a tech startup with around 25 employees total. <br />
+        When I'm not working on sharpening my web development skills I take time <br />
+        to work on other IT related studies and personal hobbies including DIY, PC building, and robotics.<br />
+    </p>
+    @Html.ActionLink("My Resume", "Resume", "Home", null, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Contact Me", "Contact", "Home", null, new { @class = "btn btn-primary" })
+</div>
+
+
+
